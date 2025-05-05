@@ -28,6 +28,32 @@ Este projeto consome dados de uma API pública e exibe informações organizadas
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
+# 2. Acesse a pasta do projeto
+   ```bash
+   cd seu-repositorio
+```
+
+# 3. Abra o arquivo index.html no navegador
+   ```bash
+start index.html
+```
+
+
+## 🧠 Aprendizados
+
+Durante o desenvolvimento deste projeto, pratiquei e reforcei os seguintes conceitos:
+
+- Trabalhar com a **tipagem forte do TypeScript** usando `interface` e `type guard`
+- Uso de **async/await** para consumir uma API externa
+- **Tratamento de dados monetários e datas** no formato brasileiro
+- Conversão de datas para identificar o **dia da semana com maior número de vendas**
+- Manipulação de DOM de forma dinâmica com TypeScript
+
+## 🔗 API Utilizada
+
+Os dados de transações foram obtidos de uma API pública da Origamid:
+
+> https://api.origamid.dev/json/transacoes.json
 
 
 
