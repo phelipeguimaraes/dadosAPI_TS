@@ -13,9 +13,6 @@ Este projeto consome dados de uma API pública e exibe informações organizadas
 
 - Exibição dos dados em uma tabela responsiva;
 - Cálculo do total de transações em reais;
-- Filtros por:
-  - Forma de pagamento (Cartão de Crédito, Boleto);
-  - Status (Pago, Recusado, Aguardando, Estornado);
 - Descoberta do **dia da semana com mais vendas**;
 - Formatação dos valores e datas.
 
