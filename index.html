@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Manipulação de Dados</title>
+   <script src="script.js" defer ></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main>
+      <section class="sectionEstatistica">
+         <div>
+            <h1>Estatísticas</h1>
+            <p>Total: <span class="moneyTotal"></span></p>
+         </div>
+         <div>
+            <p>Cartão de Crédito: <span class="creditoTotal"></span></p>
+            <p>Boleto: <span class="boletoTotal"></span></p>
+         </div>
+         <div>
+            <p>Paga: <span class="pagasTotal"></span></p>
+            <p>Recusada pela operadora de cartão: <span class="recuseCard"></span></p>
+            <p>Aguardando pagamento: <span class="aguardandoPay"></span></p>
+            <p>Estornada: <span class="estornadaPay"></span></p>
+            <p>Dias com mais vendas: <span class="diasComMaisVendas"></span></p>
+         </div>
+      </section>
+      <section class="sectionDados">
+         <h1>Dados</h1>
+         <div class="dadosHeader">
+           <div><h3>Nome</h3></div>
+           <div><h3>Email</h3></div>
+           <div><h3>Compra</h3></div>
+           <div><h3>Pagamento</h3></div>
+           <div><h3>Status</h3></div>
+         </div>
+         <div class="dadosBody" id="dadosBody"></div>
+       </section>
+   </main>
+</body>
+</html>
